@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "azure-starterpack-root",
+  "workspaces": [
+    "digital-field-assistant"
+  ],
+  "scripts": {
+    "dev": "yarn workspace digital-field-assistant dev",
+    "build": "yarn workspace digital-field-assistant build",
+    "start": "yarn workspace digital-field-assistant start"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+  ,"resolutions": {
+    "require-in-the-middle": "8.0.1"
+  }
+}
