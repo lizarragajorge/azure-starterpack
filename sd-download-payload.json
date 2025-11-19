@@ -1,0 +1,26 @@
+﻿{
+    "sdWrappingKeys":  [
+                           {
+                               "x5c":  [
+                                           "MIIDAzCCAeugAwIBAgIUW2/B62acP4r3QdF5JvO7Uw1PC3gwDQYJKoZIhvcNAQELBQAwETEPMA0GA1UEAwwGU0RLZXkxMB4XDTI1MTAyNDIzMDUzMVoXDTM1MTAyMjIzMDUzMVowETEPMA0GA1UEAwwGU0RLZXkxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3VSe0a86YlY9hvyaGq2JfKFwWUmIRA/eZC8lAgQxm4DTnAP/wZpKYgEQqt0AZEnYw/UfukCaXS1aoMYczVDsMp1391+HxKqkMD+K7AshvDZTJsnJaBqcArhMEKXHbwlOhQ3uyHNw1ufGNctR9sb7XqEq3fNa2BqGPBan/qhY3PZANL74Jf+Trb0vKX4j4K0wPV7FbciqsyECHxEiGvpTkdSQfUJ5M85s5LEuGPbKQ6v+vRgk9oIz16s+d55s1tIs3IGHwkMU/sUhI+LCvZ5Vp7qnQscoaMhulS2pWJxwFtaHRaetud9JdKdQqk0qjiBtvNHlf9ICaBVVa6+8R1e62QIDAQABo1MwUTAdBgNVHQ4EFgQUIlC2VJIe1Bf38jV09WpkZgiDK68wHwYDVR0jBBgwFoAUIlC2VJIe1Bf38jV09WpkZgiDK68wDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAptykLl4zZXW8Hj8YjQKremNCrn/ju6BUK+WyC6rZ866IUhwRFJwsRvmSnv+e9tC+0h84S1TTu4cqntgULh5dDi70zgiH0AO65uqZMPClXRL0xNynuT8z9d1FUfZyZUqIy7mgRtuzhQi0H39c+62p1iLDEyvrIImbzO7m0piuh4iMv7CF3aENmdD+xmf/2FQjp9sTsK5yGJM4WMRF23ALbVJp4zc+qRHoBZn14i6aSSK/tymHDy2rWsj/QwEST5yyGQWdUrgp8aUeGEm0/Ai7yj6Qs0GoxDSWch6O1AMZCGgCGvmsre4DqorOP7+1qCbs1bNfT+So7dh2b3cxKRPkkg=="
+                                       ]
+                           },
+                           {
+                               "x5c":  [
+                                           "MIIDAzCCAeugAwIBAgIUCtV+nDL3G2l6zCa5jaIfORcZcnIwDQYJKoZIhvcNAQELBQAwETEPMA0GA1UEAwwGU0RLZXkyMB4XDTI1MTAyNDIzMDUzMVoXDTM1MTAyMjIzMDUzMVowETEPMA0GA1UEAwwGU0RLZXkyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnWYVr6gydrg46BEzwCL5SnFt+Fep5NGK0UrihWgio6yj8yMATpIaOYUQmiHlcB1A9pONuzXHcVPrzP8ad1SxfhGXXSiZlxLKm1uDARZNywSik1dPx99JrgxmWZL9uRQBoqcbAPDIGSQKcZfUwAvzBRLHbReaqTa+8LYH5oHD9+YIna6eaBvvIbdeRZmyrrozw3eCycsUf6klOdxGVYbqAyV5h4F8WcsDjfnTJl9DHRDRMqIajcCALAN26HB+Wl8H0qNkHlQC0GaEFpCmOuP7BdE0rOGqdn9OqjTZUOJHkC8JEvOc1aJlFkAy5cqAkwaczcjpPCcsbOGTXxivW3vdfwIDAQABo1MwUTAdBgNVHQ4EFgQULCw9zqISR5rmJYAUPXZOlADKuAkwHwYDVR0jBBgwFoAULCw9zqISR5rmJYAUPXZOlADKuAkwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAbQps/zuS2RHs23PZWxwnTLSw06ME6zaF0Xnzg/ThL1rKZ5Ev4doRw+Pv9iPkwNMOZ3lq6pLb389DsEYuWaHolg+w4KF4Ci2tCcNkSZIE31c7D4T/5Vf0Wy72KcExEsJ451Yw7lV7FCcL5gv5EC3GYODiQ7oJhamUUlwbMeh/lhbfqjHJtP9+UayYeSSt31zpzO3f+2uO2KgUlYQhbLIYaGTuKSZIBXX09SaVxC6euOhKQXf41nvlYEN4kasYRi37N6Cap+JVRLbBK4YJ8eMAKb6vlQe8pbsf/9mtJ+IIXjYMazwhcIdPHcTUF7D9qcQd1m1frwUYbGR1dw4oKAwFPg=="
+                                       ]
+                           },
+                           {
+                               "x5c":  [
+                                           "MIIDAzCCAeugAwIBAgIULsMqT7oaRBtCtaQUNvPBMTMr73QwDQYJKoZIhvcNAQELBQAwETEPMA0GA1UEAwwGU0RLZXkzMB4XDTI1MTAyNDIzMDUzMVoXDTM1MTAyMjIzMDUzMVowETEPMA0GA1UEAwwGU0RLZXkzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAorqzwOJeuwmCj7nJCodw+ly5X1gXcLnOiQu6gH8OabD6xaJqRjJh4v7pQnHFKr3tq3CVjGzDYCBzCwyrvPaL/Sqt4+RY03ACJOH3erSByuiRFEM9oKvNK/UBDc7/P5kirDEe4Fq6giqhtALBbjlkd3vI5q8Wf14Gsg3pT7mv1jqloAmUEs+4r8h2CrI8I1MgSkY+xrShe0m4oCsyFUXtrXcVdS4rN8zhtijWwgAgDbIWa1a/GFjbGbf9PKHwtyTI/0ZtnMuCRnCLyyyFbKcPLfPOmVgnmE0SPpcATQLwrUvqKDqpk3zNyrgSPLy7hy20ICHim995YOOs5HkYKRi6fwIDAQABo1MwUTAdBgNVHQ4EFgQU6GRvdjt9Zbi4VLp0O9z7fVKxJFswHwYDVR0jBBgwFoAU6GRvdjt9Zbi4VLp0O9z7fVKxJFswDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAoU+xWHBt02U3Zm1LaEGf88cQcCBO2tOOm+gyjV0F6W3ZYQHdjXjJlVRPG8RnMTy4oesfJ4zOmP5MEEQmEshismFvNytOnccUGlU+ivgdBSAW8ImfP0tmZOMJP/X8R8N4Ze4CwzJhF8gwOC88GRA3NyrwPKIc9XQRk9DrWJwxmKwFqgoyA0X8GkmdmPCqPS0+JbQDo8ZMefNdamztm2tAsEXvVjvXUke4LQgODoVGeXEVSI4qHeyxIh5j8+86J0PYNDOYUobcOe5BS0Yh6NShsbWS9HMIs3JPu4zdo5fYKmb6zzG9k2Wtq3ooaAPMYNq5em76EyUwNjci7jrNICG5UA=="
+                                       ]
+                           }
+                       ],
+    "sdQuorum":  2
+}
+
+az cognitiveservices account update `
+  --name jl-ai-foundry-demo `
+  --resource-group ai-foundry-demo `
+  --encryption-key-source Customer `
+  --encryption-key-uri "https://demomanagedhsm.managedhsm.azure.net/keys/cmk-ai-foundry/27ede5fb249c4a452d8e00c2eb4b3bda"

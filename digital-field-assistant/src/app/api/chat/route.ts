@@ -4,6 +4,7 @@ import { getTracer } from "@/lib/telemetry";
 import {
   AzureChatMessage,
   completeChatWithAiFoundry,
+  completeChatAuto,
   isVerboseLoggingEnabled,
 } from "@/lib/aiFoundry";
 
@@ -104,7 +105,8 @@ export async function POST(request: NextRequest) {
     }
 
     try {
-      const result = await completeChatWithAiFoundry(preparedMessages);
+  // Auto-dispatch: if AI_FOUNDRY_AGENT_ID is defined we invoke the agent endpoint, else legacy chat deployment.
+  const result = await completeChatAuto(preparedMessages);
       // Emit per-message child spans (system + user messages) BEFORE assistant completion
       try {
         for (const [index, m] of preparedMessages.entries()) {

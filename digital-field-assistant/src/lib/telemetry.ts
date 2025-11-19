@@ -38,12 +38,24 @@ export function initializeTelemetry() {
 			});
 			console.log('[telemetry] ✓ Azure Monitor remote telemetry configured');
 		} else {
-			// Console-only fallback
-			const { NodeTracerProvider, SimpleSpanProcessor, ConsoleSpanExporter } = require('@opentelemetry/sdk-trace-node');
-			const provider = new NodeTracerProvider();
+			// Console-only fallback. In OTel v2 the NodeTracerProvider shape can differ; fall back to BasicTracerProvider if needed.
+			let provider: any | undefined;
+			let usedBasic = false;
+			try {
+				const mod = require('@opentelemetry/sdk-trace-node');
+				if (mod?.NodeTracerProvider) {
+					provider = new mod.NodeTracerProvider();
+				}
+			} catch {/* ignore */}
+			if (!provider || typeof provider.addSpanProcessor !== 'function') {
+				const { BasicTracerProvider } = require('@opentelemetry/sdk-trace-base');
+				provider = new BasicTracerProvider();
+				usedBasic = true;
+			}
+			const { SimpleSpanProcessor, ConsoleSpanExporter } = require('@opentelemetry/sdk-trace-base');
 			provider.addSpanProcessor(new SimpleSpanProcessor(new ConsoleSpanExporter()));
 			provider.register();
-			console.warn('[telemetry] No connection string set - console spans only');
+			console.warn(`[telemetry] No connection string set - console spans only (${usedBasic ? 'basic' : 'node'} provider)`);
 		}
 		// Register instrumentations (Azure SDK + OpenAI)
 		const { registerInstrumentations } = require('@opentelemetry/instrumentation');
